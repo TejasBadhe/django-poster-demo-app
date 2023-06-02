@@ -28,7 +28,7 @@ name: Build and deploy a container to an Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: Tejaswebapp  # set this to the name of your Azure Web App
-  WEBSITES_CONTAINER_START_TIME_LIMIT : 1000
+  #WEBSITES_CONTAINER_START_TIME_LIMIT : 1000
 on:
   push:
     branches: [ "main" ]
